@@ -1,11 +1,32 @@
 <WatchFace width="450" height="450">
     <Scene>
         <!-- Background -->
-        <PartDraw x="0" y="0" width="450" height="450">
+        <PartDraw x="0" y="0" width="450" height="450" contentDescription="Background">
             <Rectangle x="0" y="0" width="450" height="450">
                 <Fill color="#FF000000" />
             </Rectangle>
         </PartDraw>
+
+        <!-- Battery Complication -->
+        <ComplicationSlot slotId="0"
+                          supportedTypes="SHORT_TEXT"
+                          x="175" y="70" width="100" height="50">
+            <BoundingRect x="0" y="0" width="100" height="50" />
+            <DefaultProviderPolicy
+                defaultSystemProvider="WATCH_BATTERY"
+                defaultSystemProviderType="SHORT_TEXT" />
+            <Complication type="SHORT_TEXT">
+                <PartText x="0" y="0" width="100" height="50" contentDescription="Battery level">
+                    <Text align="CENTER" y="25">
+                        <Template>%s</Template>
+                        <Parameter expression="[COMPLICATION.TEXT]" />
+                        <Font family="SYNC_TO_DEVICE" size="24" color="#FF00FF00">
+                            <Variant mode="AMBIENT" target="color" value="#FF888888" />
+                        </Font>
+                    </Text>
+                </PartText>
+            </Complication>
+        </ComplicationSlot>
 
         <!-- Digital Clock -->
         <Group x="0" y="150" width="450" height="150">
