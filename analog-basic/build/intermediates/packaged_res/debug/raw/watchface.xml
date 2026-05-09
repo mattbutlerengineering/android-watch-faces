@@ -1,0 +1,73 @@
+<WatchFace width="450" height="450">
+    <Scene>
+        <!-- Background -->
+        <PartDraw x="0" y="0" width="450" height="450">
+            <Rectangle x="0" y="0" width="450" height="450">
+                <Fill color="#FF000000" />
+            </Rectangle>
+        </PartDraw>
+
+        <!-- Hour Markers -->
+        <Group x="0" y="0" width="450" height="450">
+            <!-- Simple markers at 12, 3, 6, 9 -->
+            <PartDraw x="220" y="10" width="10" height="40">
+                <Rectangle x="0" y="0" width="10" height="40">
+                    <Fill color="#FFFFFFFF" />
+                </Rectangle>
+            </PartDraw>
+            <PartDraw x="400" y="220" width="40" height="10">
+                <Rectangle x="0" y="0" width="40" height="10">
+                    <Fill color="#FFFFFFFF" />
+                </Rectangle>
+            </PartDraw>
+            <PartDraw x="220" y="400" width="10" height="40">
+                <Rectangle x="0" y="0" width="10" height="40">
+                    <Fill color="#FFFFFFFF" />
+                </Rectangle>
+            </PartDraw>
+            <PartDraw x="10" y="220" width="40" height="10">
+                <Rectangle x="0" y="0" width="40" height="10">
+                    <Fill color="#FFFFFFFF" />
+                </Rectangle>
+            </PartDraw>
+        </Group>
+
+        <!-- Analog Clock -->
+        <AnalogClock x="0" y="0" width="450" height="450">
+            <!-- Hour Hand -->
+            <HourHand x="215" y="100" width="20" height="125" pivotX="10" pivotY="125">
+                <PartDraw x="0" y="0" width="20" height="125">
+                    <Rectangle x="0" y="0" width="20" height="125">
+                        <Fill color="#FFFFFFFF" />
+                    </Rectangle>
+                </PartDraw>
+            </HourHand>
+
+            <!-- Minute Hand -->
+            <MinuteHand x="220" y="50" width="10" height="175" pivotX="5" pivotY="175">
+                <PartDraw x="0" y="0" width="10" height="175">
+                    <Rectangle x="0" y="0" width="10" height="175">
+                        <Fill color="#FFCCCCCC" />
+                    </Rectangle>
+                </PartDraw>
+            </MinuteHand>
+
+            <!-- Second Hand -->
+            <SecondHand x="223" y="30" width="4" height="220" pivotX="2" pivotY="195">
+                <PartDraw x="0" y="0" width="4" height="220">
+                    <Rectangle x="0" y="0" width="4" height="220">
+                        <Fill color="#FFFF0000" />
+                    </Rectangle>
+                </PartDraw>
+                <Sweep frequency="15" /> <!-- Smoother movement -->
+            </SecondHand>
+        </AnalogClock>
+
+        <!-- Center Pin -->
+        <PartDraw x="215" y="215" width="20" height="20">
+            <Ellipse x="0" y="0" width="20" height="20">
+                <Fill color="#FFFFFFFF" />
+            </Ellipse>
+        </PartDraw>
+    </Scene>
+</WatchFace>

@@ -1,0 +1,4 @@
+#Sat May 09 16:29:13 PDT 2026
+base.0=/Users/mbutler/github/android-watch-faces/analog-basic/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+path.0=0/classes.dex
+renamed.0=classes.dex

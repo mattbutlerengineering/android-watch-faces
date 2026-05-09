@@ -1,0 +1,4 @@
+com.example.watchface.analogbasic:xml/watch_face_info = 0x7f040000
+com.example.watchface.analogbasic:string/app_name = 0x7f030000
+com.example.watchface.analogbasic:raw/watchface = 0x7f020000
+com.example.watchface.analogbasic:drawable/preview = 0x7f010000

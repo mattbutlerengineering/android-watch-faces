@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.watchface.analogbasic.analog-basic-merged_res-4:/drawable_preview.xml.flat",
+        "source": "com.example.watchface.analogbasic.analog-basic-main-6:/drawable/preview.xml"
+    },
+    {
+        "merged": "com.example.watchface.analogbasic.analog-basic-merged_res-4:/raw_watchface.xml.flat",
+        "source": "com.example.watchface.analogbasic.analog-basic-main-6:/raw/watchface.xml"
+    },
+    {
+        "merged": "com.example.watchface.analogbasic.analog-basic-merged_res-4:/xml_watch_face_info.xml.flat",
+        "source": "com.example.watchface.analogbasic.analog-basic-main-6:/xml/watch_face_info.xml"
+    }
+]
