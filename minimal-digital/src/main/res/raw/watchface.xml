@@ -1,0 +1,14 @@
+<WatchFace width="450" height="450">
+    <Scene>
+        <PartDraw x="0" y="0" width="450" height="450">
+            <Rectangle x="0" y="0" width="450" height="450">
+                <Fill color="#FF000000" />
+            </Rectangle>
+        </PartDraw>
+        <DigitalClock x="0" y="175" width="450" height="100">
+            <TimeText format="HH:mm" align="CENTER" x="225" y="50">
+                <Font family="SYNC_TO_DEVICE" size="100" color="#FFFFFFFF" />
+            </TimeText>
+        </DigitalClock>
+    </Scene>
+</WatchFace>

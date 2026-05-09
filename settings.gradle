@@ -15,3 +15,5 @@ dependencyResolutionManagement {
 rootProject.name = 'AndroidWatchFaces'
 include ':digital-basic'
 include ':analog-basic'
+include ':minimal-digital'
+include ':minimal-analog'
