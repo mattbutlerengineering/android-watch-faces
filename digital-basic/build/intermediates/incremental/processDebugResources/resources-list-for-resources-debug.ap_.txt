@@ -1,1 +1,0 @@
-/Users/mbutler/github/android-watch-faces/digital-basic/build/intermediates/merged_res/debug/raw_watchface.xml.flat /Users/mbutler/github/android-watch-faces/digital-basic/build/intermediates/merged_res/debug/values_values.arsc.flat /Users/mbutler/github/android-watch-faces/digital-basic/build/intermediates/merged_res/debug/xml_watch_face_info.xml.flat 

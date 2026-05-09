@@ -1,7 +1,0 @@
-com.example.watchface.analogbasic.analog-basic-pngs-0 /Users/mbutler/github/android-watch-faces/analog-basic/build/generated/res/pngs/debug
-com.example.watchface.analogbasic.analog-basic-resValues-1 /Users/mbutler/github/android-watch-faces/analog-basic/build/generated/res/resValues/debug
-com.example.watchface.analogbasic.analog-basic-packageDebugResources-2 /Users/mbutler/github/android-watch-faces/analog-basic/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.example.watchface.analogbasic.analog-basic-packageDebugResources-3 /Users/mbutler/github/android-watch-faces/analog-basic/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.example.watchface.analogbasic.analog-basic-merged_res-4 /Users/mbutler/github/android-watch-faces/analog-basic/build/intermediates/merged_res/debug
-com.example.watchface.analogbasic.analog-basic-debug-5 /Users/mbutler/github/android-watch-faces/analog-basic/src/debug/res
-com.example.watchface.analogbasic.analog-basic-main-6 /Users/mbutler/github/android-watch-faces/analog-basic/src/main/res
