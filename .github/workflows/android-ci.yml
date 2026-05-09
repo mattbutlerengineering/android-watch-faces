@@ -25,6 +25,12 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew assembleDebug
 
+    - name: Run Android Lint
+      run: ./gradlew lintDebug
+
+    - name: Run Custom WFF Linter
+      run: ./scripts/wff-lint.sh
+
     - name: Run WFF Validator
       run: |
         # Download the latest WFF Validator
