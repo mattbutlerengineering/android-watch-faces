@@ -50,6 +50,7 @@
                         <Fill color="#FFCCCCCC" />
                     </Rectangle>
                 </PartDraw>
+                <Variant mode="AMBIENT" target="alpha" value="150" />
             </MinuteHand>
 
             <!-- Second Hand -->
@@ -60,6 +61,7 @@
                     </Rectangle>
                 </PartDraw>
                 <Sweep frequency="15" /> <!-- Smoother movement -->
+                <Variant mode="AMBIENT" target="alpha" value="0" />
             </SecondHand>
         </AnalogClock>
 

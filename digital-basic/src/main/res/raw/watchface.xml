@@ -17,12 +17,14 @@
                 <!-- Seconds -->
                 <TimeText format=":ss" align="LEFT" x="350" y="60">
                     <Font family="SYNC_TO_DEVICE" size="40" color="#FFAAAAAA" />
+                    <Variant mode="AMBIENT" target="alpha" value="0" />
                 </TimeText>
             </DigitalClock>
         </Group>
 
         <!-- Date -->
         <Group x="0" y="300" width="450" height="50">
+            <Variant mode="AMBIENT" target="alpha" value="0" />
             <DigitalClock>
                 <TimeText format="EEE, MMM d" align="CENTER" x="225" y="25">
                     <Font family="SYNC_TO_DEVICE" size="30" color="#FF00FF00" />
